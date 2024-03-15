@@ -1,0 +1,22 @@
+name: AD-MDMGCL
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pytorch::pytorch
+  - pytorch::torchvision
+  - pytorch::torchaudio
+  - nvidia::cudatoolkit=10.2
+  - pyg::pyg
+  - pyg::pytorch-scatter
+  - pyg::pytorch-sparse
+  - dglteam::dgl-cuda10.2
+  - conda-forge::rdkit
+  - conda-forge::pot
+  - conda-forge::numpy
+  - conda-forge::certifi
+  - conda-forge::ogb
+  - conda-forge::icecream
+  - conda-forge::tensorboard
+  - conda-forge::pyaml
+  - conda-forge::seaborn
